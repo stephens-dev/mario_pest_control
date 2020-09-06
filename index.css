@@ -1,0 +1,125 @@
+/* 1. I think the gap between each goomba it to lage if you might want to adjust it or leave it.
+2. can you move the reset button up to
+3. media's might need work
+4.Mario font colors https://www.schemecolor.com/super-mario-colors.php 
+5. "push for total" button in javascript is not working*/
+html {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color:#eb2344;
+    background-image: url("https://wallpapercave.com/wp/wp4663787.jpg");
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+   
+    padding: 5px;
+    margin-top: 200px
+}
+
+#heading {
+    color: yellow;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.goomba {
+    margin-top: 100px;
+}
+
+.Name {
+    margin-top: 150px;
+    font-size: 65px;
+}
+
+.Pics {
+    margin-top: 250px;
+}
+
+.Coin {
+    padding: 15px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+#button1 {
+    background-color: white;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+
+.footer {
+    font-size: 13px;
+    font: white;
+}
+
+@media only screen and (min-width: 600px) {
+
+html {
+    font-size: 20px;
+}
+
+#heading {
+    font-size: 55px;
+}
+
+.Pic {
+    font-size: 20px;
+}
+
+.Name {
+    font-size: 35px;
+}
+
+.footer {
+    font-size: 15px;
+}
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+html {
+    font-size: 30px;
+}
+
+#heading {
+    font-size: 90px;
+}
+
+.Pic {
+    font-size: 30px;
+}
+
+.Name {
+    font-size: 50px;
+    margin-top: 400px;
+}
+
+.baddie {
+    width: 600px;
+}
+
+
+
+.Coin {
+    font-size: 25px;
+}
+
+#button1 {
+    background-color: white;
+    font-size: 40px;
+    border-radius: 5px;
+}
+
+
+.footer {
+    font-size: 25px;
+}
+
+}
